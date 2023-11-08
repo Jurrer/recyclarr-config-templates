@@ -10,13 +10,22 @@
 # Instance Definition: https://recyclarr.dev/wiki/yaml/config-reference/basic/
 radarr:
   sqp-1-1080p:
-    base_url: Put your Radarr URL here
-    api_key: Put your API key here
+    # Set the URL/API Key to your actual instance
+    base_url: http://radarr-classic:7878
+    api_key: !env_var API_KEY_RADARR_CLASSIC YOUR_KEY_HERE
+
+    delete_old_custom_formats: true
+
+    media_naming:
+      folder: jellyfin
+      movie:
+        rename: true
+        standard: jellyfin
 
     quality_profiles:
       - name: SQP-1 (1080p)
       # Uncomment the below line if you don't have access to top-tier indexers
-      # min_format_score: 10
+        min_format_score: 10
 
     include:
       # Comment out any of the following includes to disable them
