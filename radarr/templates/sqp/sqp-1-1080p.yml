@@ -14,8 +14,8 @@ radarr:
     base_url: http://radarr-classic:7878
     api_key: !env_var API_KEY_RADARR_CLASSIC YOUR_KEY_HERE
 
-    delete_old_custom_formats: true
-    replace_existing_custom_formats: true
+    delete_old_custom_formats: false
+    replace_existing_custom_formats: false
 
     media_naming:
       folder: jellyfin
