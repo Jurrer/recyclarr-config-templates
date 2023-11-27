@@ -2,6 +2,9 @@ quality_profiles:
   - name: SQP-1 (1080p) - English
     reset_unmatched_scores:
       enabled: true
+        except:
+          - Language: Prefer English
+          - Language: Not Original or English
     upgrade:
       allowed: true
       until_quality: Bluray|WEB-1080p
