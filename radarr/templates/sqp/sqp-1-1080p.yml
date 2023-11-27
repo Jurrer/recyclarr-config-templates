@@ -58,10 +58,3 @@ radarr:
           # - bfd8eb01832d646a0a89c4deb46f8564 # Upscaled
         quality_profiles:
           - name: SQP-1 (1080p) - English
-      - trash_ids:
-        quality_profiles:
-          - name: SQP-1 (1080p) - Original Language
-      - trash_ids:
-          - f1a0e45c867a2b3d1e6fc234a5b8d970 # Not Polish or English
-        quality_profiles:
-          - name: SQP-1 (1080p) - Polish
