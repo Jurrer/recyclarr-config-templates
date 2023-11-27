@@ -15,6 +15,7 @@ radarr:
     api_key: !env_var API_KEY_RADARR_CLASSIC YOUR_KEY_HERE
 
     delete_old_custom_formats: true
+    replace_existing_custom_formats: true
 
     media_naming:
       folder: jellyfin
@@ -56,4 +57,11 @@ radarr:
           # - 0a3f082873eb454bde444150b70253cc # Extras
           # - bfd8eb01832d646a0a89c4deb46f8564 # Upscaled
         quality_profiles:
-          - name: SQP-1 (1080p)
+          - name: SQP-1 (1080p) - English
+      - trash_ids:
+        quality_profiles:
+          - name: SQP-1 (1080p) - Original Language
+      - trash_ids:
+          - f1a0e45c867a2b3d1e6fc234a5b8d970 # Not Polish or English
+        quality_profiles:
+          - name: SQP-1 (1080p) - Polish
