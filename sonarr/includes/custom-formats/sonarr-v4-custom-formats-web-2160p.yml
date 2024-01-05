@@ -1,6 +1,7 @@
 custom_formats:
   - trash_ids:
       # HDR Formats
+      - 2b239ed870daba8126a53bd5dc8dc1c8 # DV HDR10Plus
       - 7878c33f1963fefb3d6c8657d46c2f0a # DV HDR10
       - 1f733af03141f068a540eec352589a89 # DV HLG
       - 27954b0a80aab882522a88a4d9eae1cd # DV SDR
@@ -40,6 +41,7 @@ custom_formats:
       - 7a235133c87f7da4c8cccceca7e3c7a6 # HBO
       - a880d6abc21e7c16884f3ae393f84179 # HMAX
       - f6cce30f1733d5c8194222a7507909bb # HULU
+      - dc503e2425126fa1d0a9ad6168c83b3f # iP
       - 0ac24a2a68a9700bcb7eeca8e5cd644c # iT
       - 81d1fbf600e2540cee87f3a23f9d3c1c # MAX
       - d34870697c9db575f17700212167be23 # NF
