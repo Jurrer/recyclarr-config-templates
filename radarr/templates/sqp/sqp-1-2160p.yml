@@ -43,7 +43,7 @@ radarr:
           - e0c07d59beb37348e975a930d5e50319 # Criterion Collection
           - 9d27d9d2181838f76dee150882bdc58c # Masters of Cinema
           - db9b4c4b53d312a3ca5f1378f6440fc9 # Vinegar Syndrome
-          - 957d0f44b592285f26449575e8b1167e # Special Edition
+          # - 957d0f44b592285f26449575e8b1167e # Special Edition
       # Uncomment the next line if you prefer 1080p/2160p WEBDL with IMAX Enhanced
           - 9f6cbff8cfe4ebbc1bde14c7b7bec0de # IMAX Enhanced
         assign_scores_to:
@@ -307,7 +307,7 @@ radarr:
           - 9d27d9d2181838f76dee150882bdc58c # Masters of Cinema
           - 09d9dd29a0fc958f9796e65c2a8864b4 # Open Matte
           - 570bc9ebecd92723d2d21500f4be314c # Remaster
-          - 957d0f44b592285f26449575e8b1167e # Special Edition
+          # - 957d0f44b592285f26449575e8b1167e # Special Edition
           - e9001909a4c88013a359d0b9920d7bea # Theatrical Cut
           # - db9b4c4b53d312a3ca5f1378f6440fc9 # Vinegar Syndrome
 
