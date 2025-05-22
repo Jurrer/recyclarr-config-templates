@@ -1,33 +1,7 @@
 quality_profiles:
-  - name: SQP-1 (1080p) - English
+  - name: SQP-1 (1080p)
     reset_unmatched_scores:
       enabled: true
-      except:
-        - "Language: Prefer English"
-        - "Language: Not Original or English"
-    upgrade:
-      allowed: true
-      until_quality: Bluray|WEB-1080p
-      until_score: 10000
-    min_format_score: 1000
-    score_set: sqp-1-1080p
-    quality_sort: top
-    qualities:
-      - name: Bluray|WEB-1080p
-        qualities:
-          - Bluray-1080p
-          - WEBDL-1080p
-          - WEBRip-1080p
-          - WEBDL-720p
-          - WEBRip-720p
-      - name: Bluray-720p
-
-  - name: SQP-1 (1080p) - Polish
-    reset_unmatched_scores:
-      enabled: true
-      except:
-        - "Language: Prefer Polish"
-        - "Language: Not English or Polish"
     upgrade:
       allowed: true
       until_quality: Bluray|WEB-1080p
