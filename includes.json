@@ -1,66 +1,6 @@
 {
   "radarr": [
     {
-      "template": "radarr/includes/legacy/hd-bluray-web.yml",
-      "id": "hd-bluray-web"
-    },
-    {
-      "template": "radarr/includes/legacy/uhd-bluray-web.yml",
-      "id": "uhd-bluray-web"
-    },
-    {
-      "template": "radarr/includes/legacy/remux-web-1080p.yml",
-      "id": "remux-web-1080p"
-    },
-    {
-      "template": "radarr/includes/legacy/remux-web-2160p.yml",
-      "id": "remux-web-2160p"
-    },
-    {
-      "template": "radarr/includes/legacy/anime-radarr.yml",
-      "id": "anime-radarr"
-    },
-    {
-      "template": "radarr/includes/legacy/sqp/sqp-1-1080p.yml",
-      "id": "sqp-1-1080p"
-    },
-    {
-      "template": "radarr/includes/legacy/sqp/sqp-1-2160p-qp-default.yml",
-      "id": "sqp-1-2160p-qp-default"
-    },
-    {
-      "template": "radarr/includes/legacy/sqp/sqp-1-2160p-4k-only-qp-default.yml",
-      "id": "sqp-1-2160p-4k-only-qp-default"
-    },
-    {
-      "template": "radarr/includes/legacy/sqp/sqp-1-2160p-qp-imax-e.yml",
-      "id": "sqp-1-2160p-qp-imax-e"
-    },
-    {
-      "template": "radarr/includes/legacy/sqp/sqp-1-2160p-4k-only-qp-imax-e.yml",
-      "id": "sqp-1-2160p-4k-only-qp-imax-e"
-    },
-    {
-      "template": "radarr/includes/legacy/sqp/sqp-1-2160p-shared.yml",
-      "id": "sqp-1-2160p-shared"
-    },
-    {
-      "template": "radarr/includes/legacy/sqp/sqp-2.yml",
-      "id": "sqp-2"
-    },
-    {
-      "template": "radarr/includes/legacy/sqp/sqp-3.yml",
-      "id": "sqp-3"
-    },
-    {
-      "template": "radarr/includes/legacy/sqp/sqp-4.yml",
-      "id": "sqp-4"
-    },
-    {
-      "template": "radarr/includes/legacy/sqp/sqp-5.yml",
-      "id": "sqp-5"
-    },
-    {
       "template": "radarr/includes/custom-formats/radarr-custom-formats-anime.yml",
       "id": "radarr-custom-formats-anime"
     },
@@ -69,20 +9,72 @@
       "id": "radarr-custom-formats-hd-bluray-web"
     },
     {
+      "template": "radarr/includes/custom-formats/radarr-custom-formats-hd-bluray-web-french-vostfr.yml",
+      "id": "radarr-custom-formats-hd-bluray-web-french-vostfr"
+    },
+    {
+      "template": "radarr/includes/custom-formats/radarr-custom-formats-hd-bluray-web-french-multi-vf.yml",
+      "id": "radarr-custom-formats-hd-bluray-web-french-multi-vf"
+    },
+    {
+      "template": "radarr/includes/custom-formats/radarr-custom-formats-hd-bluray-web-french-multi-vo.yml",
+      "id": "radarr-custom-formats-hd-bluray-web-french-multi-vo"
+    },
+    {
       "template": "radarr/includes/custom-formats/radarr-custom-formats-remux-web-1080p.yml",
       "id": "radarr-custom-formats-remux-web-1080p"
+    },
+    {
+      "template": "radarr/includes/custom-formats/radarr-custom-formats-hd-remux-web-french-vostfr.yml",
+      "id": "radarr-custom-formats-hd-remux-web-french-vostfr"
+    },
+    {
+      "template": "radarr/includes/custom-formats/radarr-custom-formats-hd-remux-web-french-multi-vf.yml",
+      "id": "radarr-custom-formats-hd-remux-web-french-multi-vf"
+    },
+    {
+      "template": "radarr/includes/custom-formats/radarr-custom-formats-hd-remux-web-french-multi-vo.yml",
+      "id": "radarr-custom-formats-hd-remux-web-french-multi-vo"
     },
     {
       "template": "radarr/includes/custom-formats/radarr-custom-formats-remux-web-2160p.yml",
       "id": "radarr-custom-formats-remux-web-2160p"
     },
     {
+      "template": "radarr/includes/custom-formats/radarr-custom-formats-uhd-remux-web-french-vostfr.yml",
+      "id": "radarr-custom-formats-uhd-remux-web-french-vostfr"
+    },
+    {
+      "template": "radarr/includes/custom-formats/radarr-custom-formats-uhd-remux-web-french-multi-vf.yml",
+      "id": "radarr-custom-formats-uhd-remux-web-french-multi-vf"
+    },
+    {
+      "template": "radarr/includes/custom-formats/radarr-custom-formats-uhd-remux-web-french-multi-vo.yml",
+      "id": "radarr-custom-formats-uhd-remux-web-french-multi-vo"
+    },
+    {
       "template": "radarr/includes/custom-formats/radarr-custom-formats-uhd-bluray-web.yml",
       "id": "radarr-custom-formats-uhd-bluray-web"
     },
     {
+      "template": "radarr/includes/custom-formats/radarr-custom-formats-uhd-bluray-web-french-vostfr.yml",
+      "id": "radarr-custom-formats-uhd-bluray-web-french-vostfr"
+    },
+    {
+      "template": "radarr/includes/custom-formats/radarr-custom-formats-uhd-bluray-web-french-multi-vf.yml",
+      "id": "radarr-custom-formats-uhd-bluray-web-french-multi-vf"
+    },
+    {
+      "template": "radarr/includes/custom-formats/radarr-custom-formats-uhd-bluray-web-french-multi-vo.yml",
+      "id": "radarr-custom-formats-uhd-bluray-web-french-multi-vo"
+    },
+    {
       "template": "radarr/includes/custom-formats/sqp/radarr-custom-formats-sqp-1-1080p.yml",
       "id": "radarr-custom-formats-sqp-1-1080p"
+    },
+    {
+      "template": "radarr/includes/custom-formats/sqp/radarr-custom-formats-sqp-1-web-1080p.yml",
+      "id": "radarr-custom-formats-sqp-1-web-1080p"
     },
     {
       "template": "radarr/includes/custom-formats/sqp/radarr-custom-formats-sqp-1-2160p.yml",
@@ -105,6 +97,18 @@
       "id": "radarr-custom-formats-sqp-5"
     },
     {
+      "template": "radarr/includes/custom-formats/radarr-custom-formats-hd-bluray-web-german.yml",
+      "id": "radarr-custom-formats-hd-bluray-web-german"
+    },
+    {
+      "template": "radarr/includes/custom-formats/radarr-custom-formats-uhd-bluray-web-german.yml",
+      "id": "radarr-custom-formats-uhd-bluray-web-german"
+    },
+    {
+      "template": "radarr/includes/custom-formats/radarr-custom-formats-uhd-remux-web-german.yml",
+      "id": "radarr-custom-formats-uhd-remux-web-german"
+    },
+    {
       "template": "radarr/includes/quality-definitions/radarr-quality-definition-movie.yml",
       "id": "radarr-quality-definition-movie"
     },
@@ -125,20 +129,72 @@
       "id": "radarr-quality-profile-hd-bluray-web"
     },
     {
+      "template": "radarr/includes/quality-profiles/radarr-quality-profile-hd-bluray-web-french-vostfr.yml",
+      "id": "radarr-quality-profile-hd-bluray-web-french-vostfr"
+    },
+    {
+      "template": "radarr/includes/quality-profiles/radarr-quality-profile-hd-bluray-web-french-multi-vf.yml",
+      "id": "radarr-quality-profile-hd-bluray-web-french-multi-vf"
+    },
+    {
+      "template": "radarr/includes/quality-profiles/radarr-quality-profile-hd-bluray-web-french-multi-vo.yml",
+      "id": "radarr-quality-profile-hd-bluray-web-french-multi-vo"
+    },
+    {
       "template": "radarr/includes/quality-profiles/radarr-quality-profile-remux-web-1080p.yml",
       "id": "radarr-quality-profile-remux-web-1080p"
+    },
+    {
+      "template": "radarr/includes/quality-profiles/radarr-quality-profile-hd-remux-web-french-vostfr.yml",
+      "id": "radarr-quality-profile-hd-remux-web-french-vostfr"
+    },
+    {
+      "template": "radarr/includes/quality-profiles/radarr-quality-profile-hd-remux-web-french-multi-vf.yml",
+      "id": "radarr-quality-profile-hd-remux-web-french-multi-vf"
+    },
+    {
+      "template": "radarr/includes/quality-profiles/radarr-quality-profile-hd-remux-web-french-multi-vo.yml",
+      "id": "radarr-quality-profile-hd-remux-web-french-multi-vo"
     },
     {
       "template": "radarr/includes/quality-profiles/radarr-quality-profile-remux-web-2160p.yml",
       "id": "radarr-quality-profile-remux-web-2160p"
     },
     {
+      "template": "radarr/includes/quality-profiles/radarr-quality-profile-uhd-remux-web-french-vostfr.yml",
+      "id": "radarr-quality-profile-uhd-remux-web-french-vostfr"
+    },
+    {
+      "template": "radarr/includes/quality-profiles/radarr-quality-profile-uhd-remux-web-french-multi-vf.yml",
+      "id": "radarr-quality-profile-uhd-remux-web-french-multi-vf"
+    },
+    {
+      "template": "radarr/includes/quality-profiles/radarr-quality-profile-uhd-remux-web-french-multi-vo.yml",
+      "id": "radarr-quality-profile-uhd-remux-web-french-multi-vo"
+    },
+    {
       "template": "radarr/includes/quality-profiles/radarr-quality-profile-uhd-bluray-web.yml",
       "id": "radarr-quality-profile-uhd-bluray-web"
     },
     {
+      "template": "radarr/includes/quality-profiles/radarr-quality-profile-uhd-bluray-web-french-vostfr.yml",
+      "id": "radarr-quality-profile-uhd-bluray-web-french-vostfr"
+    },
+    {
+      "template": "radarr/includes/quality-profiles/radarr-quality-profile-uhd-bluray-web-french-multi-vf.yml",
+      "id": "radarr-quality-profile-uhd-bluray-web-french-multi-vf"
+    },
+    {
+      "template": "radarr/includes/quality-profiles/radarr-quality-profile-uhd-bluray-web-french-multi-vo.yml",
+      "id": "radarr-quality-profile-uhd-bluray-web-french-multi-vo"
+    },
+    {
       "template": "radarr/includes/quality-profiles/sqp/radarr-quality-profile-sqp-1-1080p.yml",
       "id": "radarr-quality-profile-sqp-1-1080p"
+    },
+    {
+      "template": "radarr/includes/quality-profiles/sqp/radarr-quality-profile-sqp-1-web-1080p.yml",
+      "id": "radarr-quality-profile-sqp-1-web-1080p"
     },
     {
       "template": "radarr/includes/quality-profiles/sqp/radarr-quality-profile-sqp-1-2160p-4k-only-default.yml",
@@ -171,32 +227,80 @@
     {
       "template": "radarr/includes/quality-profiles/sqp/radarr-quality-profile-sqp-5.yml",
       "id": "radarr-quality-profile-sqp-5"
+    },
+    {
+      "template": "radarr/includes/quality-profiles/radarr-quality-profile-hd-bluray-web-german.yml",
+      "id": "radarr-quality-profile-hd-bluray-web-german"
+    },
+    {
+      "template": "radarr/includes/quality-profiles/radarr-quality-profile-uhd-bluray-web-german.yml",
+      "id": "radarr-quality-profile-uhd-bluray-web-german"
+    },
+    {
+      "template": "radarr/includes/quality-profiles/radarr-quality-profile-uhd-remux-web-german.yml",
+      "id": "radarr-quality-profile-uhd-remux-web-german"
     }
   ],
   "sonarr": [
     {
-      "template": "sonarr/includes/legacy/anime-sonarr-v4.yml",
-      "id": "anime-sonarr-v4"
-    },
-    {
-      "template": "sonarr/includes/legacy/web-1080p-v4.yml",
-      "id": "web-1080p-v4"
-    },
-    {
-      "template": "sonarr/includes/legacy/web-2160p-v4.yml",
-      "id": "web-2160p-v4"
-    },
-    {
       "template": "sonarr/includes/custom-formats/sonarr-v4-custom-formats-anime.yml",
       "id": "sonarr-v4-custom-formats-anime"
+    },
+    {
+      "template": "sonarr/includes/custom-formats/sonarr-v4-custom-formats-1080p-french-anime-vostfr.yml",
+      "id": "sonarr-v4-custom-formats-1080p-french-anime-vostfr"
+    },
+    {
+      "template": "sonarr/includes/custom-formats/sonarr-v4-custom-formats-1080p-french-anime-multi.yml",
+      "id": "sonarr-v4-custom-formats-1080p-french-anime-multi"
     },
     {
       "template": "sonarr/includes/custom-formats/sonarr-v4-custom-formats-web-1080p.yml",
       "id": "sonarr-v4-custom-formats-web-1080p"
     },
     {
+      "template": "sonarr/includes/custom-formats/sonarr-v4-custom-formats-bluray-web-1080p-french-vostfr.yml",
+      "id": "sonarr-v4-custom-formats-bluray-web-1080p-french-vostfr"
+    },
+    {
+      "template": "sonarr/includes/custom-formats/sonarr-v4-custom-formats-bluray-web-1080p-french-multi-vf.yml",
+      "id": "sonarr-v4-custom-formats-bluray-web-1080p-french-multi-vf"
+    },
+    {
+      "template": "sonarr/includes/custom-formats/sonarr-v4-custom-formats-bluray-web-1080p-french-multi-vo.yml",
+      "id": "sonarr-v4-custom-formats-bluray-web-1080p-french-multi-vo"
+    },
+    {
       "template": "sonarr/includes/custom-formats/sonarr-v4-custom-formats-web-2160p.yml",
       "id": "sonarr-v4-custom-formats-web-2160p"
+    },
+    {
+      "template": "sonarr/includes/custom-formats/sonarr-v4-custom-formats-bluray-web-2160p-french-vostfr.yml",
+      "id": "sonarr-v4-custom-formats-bluray-web-2160p-french-vostfr"
+    },
+    {
+      "template": "sonarr/includes/custom-formats/sonarr-v4-custom-formats-bluray-web-2160p-french-multi-vf.yml",
+      "id": "sonarr-v4-custom-formats-bluray-web-2160p-french-multi-vf"
+    },
+    {
+      "template": "sonarr/includes/custom-formats/sonarr-v4-custom-formats-bluray-web-2160p-french-multi-vo.yml",
+      "id": "sonarr-v4-custom-formats-bluray-web-2160p-french-multi-vo"
+    },
+    {
+      "template": "sonarr/includes/custom-formats/sonarr-v4-custom-formats-hd-bluray-web-german.yml",
+      "id": "sonarr-v4-custom-formats-hd-bluray-web-german"
+    },
+    {
+      "template": "sonarr/includes/custom-formats/sonarr-v4-custom-formats-hd-remux-web-german.yml",
+      "id": "sonarr-v4-custom-formats-hd-remux-web-german"
+    },
+    {
+      "template": "sonarr/includes/custom-formats/sonarr-v4-custom-formats-uhd-bluray-web-german.yml",
+      "id": "sonarr-v4-custom-formats-uhd-bluray-web-german"
+    },
+    {
+      "template": "sonarr/includes/custom-formats/sonarr-v4-custom-formats-uhd-remux-web-german.yml",
+      "id": "sonarr-v4-custom-formats-uhd-remux-web-german"
     },
     {
       "template": "sonarr/includes/quality-definitions/sonarr-quality-definition-anime.yml",
@@ -211,12 +315,68 @@
       "id": "sonarr-v4-quality-profile-anime"
     },
     {
+      "template": "sonarr/includes/quality-profiles/sonarr-v4-quality-profile-1080p-french-anime-vostfr.yml",
+      "id": "sonarr-v4-quality-profile-1080p-french-anime-vostfr"
+    },
+    {
+      "template": "sonarr/includes/quality-profiles/sonarr-v4-quality-profile-1080p-french-anime-multi.yml",
+      "id": "sonarr-v4-quality-profile-1080p-french-anime-multi"
+    },
+    {
       "template": "sonarr/includes/quality-profiles/sonarr-v4-quality-profile-web-1080p.yml",
       "id": "sonarr-v4-quality-profile-web-1080p"
     },
     {
+      "template": "sonarr/includes/quality-profiles/sonarr-v4-quality-profile-web-1080p-alternative.yml",
+      "id": "sonarr-v4-quality-profile-web-1080p-alternative"
+    },
+    {
+      "template": "sonarr/includes/quality-profiles/sonarr-v4-quality-profile-bluray-web-1080p-french-vostfr.yml",
+      "id": "sonarr-v4-quality-profile-bluray-web-1080p-french-vostfr"
+    },
+    {
+      "template": "sonarr/includes/quality-profiles/sonarr-v4-quality-profile-bluray-web-1080p-french-multi-vf.yml",
+      "id": "sonarr-v4-quality-profile-bluray-web-1080p-french-multi-vf"
+    },
+    {
+      "template": "sonarr/includes/quality-profiles/sonarr-v4-quality-profile-bluray-web-1080p-french-multi-vo.yml",
+      "id": "sonarr-v4-quality-profile-bluray-web-1080p-french-multi-vo"
+    },
+    {
       "template": "sonarr/includes/quality-profiles/sonarr-v4-quality-profile-web-2160p.yml",
       "id": "sonarr-v4-quality-profile-web-2160p"
+    },
+    {
+      "template": "sonarr/includes/quality-profiles/sonarr-v4-quality-profile-web-2160p-alternative.yml",
+      "id": "sonarr-v4-quality-profile-web-2160p-alternative"
+    },
+    {
+      "template": "sonarr/includes/quality-profiles/sonarr-v4-quality-profile-bluray-web-2160p-french-vostfr.yml",
+      "id": "sonarr-v4-quality-profile-bluray-web-2160p-french-vostfr"
+    },
+    {
+      "template": "sonarr/includes/quality-profiles/sonarr-v4-quality-profile-bluray-web-2160p-french-multi-vf.yml",
+      "id": "sonarr-v4-quality-profile-bluray-web-2160p-french-multi-vf"
+    },
+    {
+      "template": "sonarr/includes/quality-profiles/sonarr-v4-quality-profile-bluray-web-2160p-french-multi-vo.yml",
+      "id": "sonarr-v4-quality-profile-bluray-web-2160p-french-multi-vo"
+    },
+    {
+      "template": "sonarr/includes/quality-profiles/sonarr-v4-quality-profile-hd-bluray-web-german.yml",
+      "id": "sonarr-v4-quality-profile-hd-bluray-web-german"
+    },
+    {
+      "template": "sonarr/includes/quality-profiles/sonarr-v4-quality-profile-hd-remux-web-german.yml",
+      "id": "sonarr-v4-quality-profile-hd-remux-web-german"
+    },
+    {
+      "template": "sonarr/includes/quality-profiles/sonarr-v4-quality-profile-uhd-bluray-web-german.yml",
+      "id": "sonarr-v4-quality-profile-uhd-bluray-web-german"
+    },
+    {
+      "template": "sonarr/includes/quality-profiles/sonarr-v4-quality-profile-uhd-remux-web-german.yml",
+      "id": "sonarr-v4-quality-profile-uhd-remux-web-german"
     }
   ]
 }
