@@ -43,7 +43,7 @@ radarr:
           - 957d0f44b592285f26449575e8b1167e
         assign_scores_to:
           - name: SQP-1 (1080p)
-            score: -2137
+            score: -9000
 
       - trash_ids:
       # Uncomment any of the next six lines to prefer these movie versions

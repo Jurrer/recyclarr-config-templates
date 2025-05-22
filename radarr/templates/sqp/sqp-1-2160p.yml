@@ -40,7 +40,7 @@ radarr:
           - 957d0f44b592285f26449575e8b1167e
         assign_scores_to:
           - name: SQP-1 (2160p)
-            score: 0
+            score: -9000
       - trash_ids:
       # Uncomment any of the next six lines to prefer these movie versions
           - 570bc9ebecd92723d2d21500f4be314c # Remaster
