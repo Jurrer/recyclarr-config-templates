@@ -35,7 +35,12 @@ radarr:
 
 # Custom Formats: https://recyclarr.dev/wiki/yaml/config-reference/custom-formats/
     custom_formats:
-      # Movie Versions
+      # No special releases (Directors cut etc)
+      - trash_ids:
+          - 957d0f44b592285f26449575e8b1167e
+        assign_scores_to:
+          - name: SQP-1 (2160p)
+            score: 0
       - trash_ids:
       # Uncomment any of the next six lines to prefer these movie versions
           - 570bc9ebecd92723d2d21500f4be314c # Remaster
@@ -48,7 +53,7 @@ radarr:
           - 9f6cbff8cfe4ebbc1bde14c7b7bec0de # IMAX Enhanced
         assign_scores_to:
           - name: SQP-1 (2160p)
-
+  
       # Optional
       - trash_ids:
           # Uncomment the next two lines if you have a setup that supports HDR10+
