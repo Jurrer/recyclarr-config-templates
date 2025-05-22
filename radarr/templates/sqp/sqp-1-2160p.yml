@@ -336,4 +336,4 @@ radarr:
           # - bfd8eb01832d646a0a89c4deb46f8564 # Upscaled
           # - dc98083864ea246d05a42df0d05f81cc # x265 (HD)
         assign_scores_to:
-          - name: SQP-1 (1080p)
+          - name: SQP-1 (2160p)
