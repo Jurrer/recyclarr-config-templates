@@ -19,10 +19,11 @@ radarr:
     replace_existing_custom_formats: true
 
     media_naming:
-      folder: default
+      folder: jellyfin-tmdb
       movie:
         rename: true
-        standard: default
+        standard: jellyfin-tmdb
+        
     quality_profiles:
       - name: SQP-1 (2160p)
         # Uncomment the below line if you don't have access to top-tier indexers
