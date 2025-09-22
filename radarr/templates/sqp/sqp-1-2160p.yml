@@ -91,6 +91,7 @@ radarr:
           - e098247bc6652dd88c76644b275260ed # FLUX
           - ff5bc9e8ce91d46c997ca3ac6994d6f8 # FraMeSToR
           - 8cd3ac70db7ac318cf9a0e01333940a4 # SiC
+          - d66d26d37c32b0137cd26f42abaa7c2e # TheFarm
           - 7a0d1ad358fee9f5b074af3ef3f9d9ef # hallowed
 
           # # Anime
@@ -230,25 +231,15 @@ radarr:
           - 439f9d71becaed589058ec949e037ff3 # German Web Tier 03
 
           # HDR Formats
-          - 58d6a88f13e2db7f5059c41047876f00 # DV
-          - e23edd2482476e595fb990b12e7c609c # DV HDR10
-          - c53085ddbd027d9624b320627748612f # DV HDR10+
-          - 55d53828b9d81cbe20b02efd00aa0efd # DV HLG
-          - a3e19f8f627608af0211acd02bf89735 # DV SDR
-          - e61e28db95d22bedcadf030b8f156d96 # HDR
-          - 2a4d9069cc1fe3242ff9bdaebed239bb # HDR (undefined)
-          - dfb86d5941bc9075d6af23b09c2aeecd # HDR10
-          - b974a6cd08c1066250f1f177d7aa1225 # HDR10+
-          - 9364dd386c9b4a1100dde8264690add7 # HLG
-          - 08d6d8834ad9ec87b1dc7ec8148e7a1f # PQ
+          - b337d6812e06c200ec9a2d3cfa9d20a7 # DV Boost
+          - 493b6d1dbec3c3364c59d7607f7e3405 # HDR
+          - caa37d0df9c348912df1fb1d88f9273a # HDR10+ Boost
 
           # HDR Optional
-          - f700d29429c023a5734505e77daeaea7 # DV (Disk)
-          - 923b6abef9b17f937fab56cfcf89e1f1 # DV (WEBDL)
-          - 55a5b50cb416dea5a50c4955896217ab # DV HDR10+ Boost
-          - b17886cb4158d9fea189859409975758 # HDR10+ Boost
-          # - 9c38ebb7384dada637be8899efa68e6f # SDR
-          - 25c12f78430a3a23413652cbd1d48d77 # SDR (no WEBDL)
+          # - f700d29429c023a5734505e77daeaea7 # DV (Disk)
+          - 923b6abef9b17f937fab56cfcf89e1f1 # DV (w/o HDR fallback)
+          - 9c38ebb7384dada637be8899efa68e6f # SDR
+          # - 25c12f78430a3a23413652cbd1d48d77 # SDR (no WEBDL)
 
           # HQ Release Groups
           - ed27ebfef2f323e964fb1f61391bcb35 # HD Bluray Tier 01
