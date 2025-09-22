@@ -19,11 +19,10 @@ radarr:
     replace_existing_custom_formats: true
 
     media_naming:
-      folder: jellyfin
+      folder: default
       movie:
         rename: true
-        standard: jellyfin
-
+        standard: default
     quality_profiles:
       - name: SQP-1 (2160p)
         # Uncomment the below line if you don't have access to top-tier indexers

@@ -29,7 +29,7 @@ sonarr:
     # https://trash-guides.info/Sonarr/Sonarr-Release-Profile-RegEx/
 
     media_naming:
-      series: jellyfin
+      series: default
       season: default
       episodes:
         rename: true
