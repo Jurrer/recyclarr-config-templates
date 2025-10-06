@@ -1,8 +1,8 @@
 name: Renovate
 
 on:
-  schedule:
-  - cron: "0 2 * * *" # Daily at 2 AM
+  # schedule:
+  # - cron: "0 2 * * *" # Daily at 2 AM
   push:
     branches: ["master"]
   issue_comment:
