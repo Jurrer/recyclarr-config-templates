@@ -34,7 +34,7 @@ radarr:
       # Comment out any of the following includes to disable them
       - template: radarr-quality-definition-sqp-streaming
       - template: radarr-quality-profile-sqp-1-1080p
-      - template: radarr-custom-formats-sqp-1-1080p
+      # - template: radarr-custom-formats-sqp-1-1080p
 
     # Custom Formats: https://recyclarr.dev/reference/configuration/custom-formats/
     custom_formats:
@@ -112,8 +112,8 @@ radarr:
           - 205125755c411c3b8622ca3175d27b37 # 3.0 Sound
           - 373b58bd188fc00c817bd8c7470ea285 # 4.0 Sound
           - 77ff61788dfe1097194fd8743d7b4524 # 5.1 Surround
-          # - 6fd7b090c3f7317502ab3b63cc7f51e3 # 6.1 Surround
-          # - e77382bcfeba57cb83744c9c5449b401 # 7.1 Surround
+          - 6fd7b090c3f7317502ab3b63cc7f51e3 # 6.1 Surround
+          - e77382bcfeba57cb83744c9c5449b401 # 7.1 Surround
 
           # Audio Formats
           - 240770601cc226190c367ef59aba7463 # AAC
@@ -126,7 +126,7 @@ radarr:
           - f9f847ac70a0af62ea4a08280b859636 # DTS-ES
           - 8e109e50e0a0b83a5098b056e13bf6db # DTS-HD HRA
           - dcf3ec6938fa32445f590a4da84256cd # DTS-HD MA
-          # - a570d4a0e56a2874b64e5bfa55202a1b # FLAC
+          - a570d4a0e56a2874b64e5bfa55202a1b # FLAC
           - 6ba9033150e7896bdc9ec4b44f2b230f # MP3
           - a061e2e700f81932daf888599f8a8273 # Opus
           - e7c2fcae07cbada050a0af3357491d7b # PCM
@@ -248,7 +248,7 @@ radarr:
           - 820b09bb9acbfde9c35c71e0e565dad8 # 1080p
           - fb392fb0d61a010ae38e49ceaa24a1ef # 2160p
           - b2be17d608fc88818940cd1833b0b24c # 720p
-          # - b6832f586342ef70d9c128d40c07b872 # Bad Dual Groups
+          - b6832f586342ef70d9c128d40c07b872 # Bad Dual Groups
           - cc444569854e9de0b084ab2b8b1532b2 # Black and White Editions
           - 9de657fd3d327ecf144ec73dfe3a3e9a # Dutch Groups
           - 0d91270a7255a1e388fa85e959f359d8 # FreeLeech
@@ -284,21 +284,21 @@ radarr:
           # - db9b4c4b53d312a3ca5f1378f6440fc9 # Vinegar Syndrome
 
           # # UK Streaming Services
-          # - 6185878161f1e2eef9cd0641a0d09eae # IP
-          # - c3492a26af412e385404eade438ec51c # ITVX
-          # - eacd2cb6c6d4a93e459df2cec6d7b97a # MY5
-          # - 3dce1fce9ac06d1349dfbd9186289385 # NOW
+          - 6185878161f1e2eef9cd0641a0d09eae # IP
+          - c3492a26af412e385404eade438ec51c # ITVX
+          - eacd2cb6c6d4a93e459df2cec6d7b97a # MY5
+          - 3dce1fce9ac06d1349dfbd9186289385 # NOW
 
           # Unwanted
-          # - b8cd450cbfa689c0259a01d9e29ba3d6 # 3D
-          - cae4ca30163749b891686f95532519bd # AV1
+          - b8cd450cbfa689c0259a01d9e29ba3d6 # 3D
+          # - cae4ca30163749b891686f95532519bd # AV1
           # - ed38b889b31be83fda192888e2286d83 # BR-DISK
-          # - 0a3f082873eb454bde444150b70253cc # Extras
-          # - e6886871085226c3da1830830146846c # Generated Dynamic HDR
+          - 0a3f082873eb454bde444150b70253cc # Extras
+          - e6886871085226c3da1830830146846c # Generated Dynamic HDR
           # - 90a6f9a284dff5103f6346090e6280c8 # LQ
           # - e204b80c87be9497a8a6eaff48f72905 # LQ (Release Title)
-          # - 712d74cd88bceb883ee32f773656b1f5 # Sing-Along Versions
-          # - bfd8eb01832d646a0a89c4deb46f8564 # Upscaled
+          - 712d74cd88bceb883ee32f773656b1f5 # Sing-Along Versions
+          - bfd8eb01832d646a0a89c4deb46f8564 # Upscaled
           # - dc98083864ea246d05a42df0d05f81cc # x265 (HD)
         assign_scores_to:
           - name: SQP-1 (1080p)
