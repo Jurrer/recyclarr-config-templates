@@ -16,7 +16,6 @@ radarr:
     api_key: !env_var API_KEY_RADARR_4K YOUR_KEY_HERE
 
     delete_old_custom_formats: true
-    replace_existing_custom_formats: true
 
     media_naming:
       folder: jellyfin-tmdb
