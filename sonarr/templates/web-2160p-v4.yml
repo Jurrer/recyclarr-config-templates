@@ -253,8 +253,8 @@ sonarr:
           # - 0c4b99df9206d2cfac3c05ab897dd62a # HDR10+ Boost
 
           # HDR Optional
-          - ef4963043b0987f8485bc9106f16db38 # DV (Disk)
-          # - 9b27ab6498ec0f31a3353992e19434ca # DV (w/o HDR fallback)
+          # - ef4963043b0987f8485bc9106f16db38 # DV (Disk)
+          - 9b27ab6498ec0f31a3353992e19434ca # DV (w/o HDR fallback)
           # - 2016d1676f5ee13a5b7257ff86ac9a93 # SDR
           - 83304f261cf516bb208c18c54c0adf97 # SDR (no WEBDL)
 
@@ -292,7 +292,7 @@ sonarr:
           - 290078c8b266272a5cc8e251b5e2eb0b # 1080p
           - 1bef6c151fa35093015b0bfef18279e5 # 2160p
           - c99279ee27a154c2f20d1d505cc99e25 # 720p
-          - 32b367365729d530ca1c124a0b180c64 # Bad Dual Groups
+          # - 32b367365729d530ca1c124a0b180c64 # Bad Dual Groups
           - d7c747094a7c65f4c2de083c24899e8b # FreeLeech
           - 1bd69272e23c5e6c5b1d6c8a36fce95e # HFR
           - 5ab46ff851b76c337e13e81a4353875f # INTERNAL
@@ -501,8 +501,8 @@ sonarr:
           # - 0c4b99df9206d2cfac3c05ab897dd62a # HDR10+ Boost
 
           # HDR Optional
-          - ef4963043b0987f8485bc9106f16db38 # DV (Disk)
-          # - 9b27ab6498ec0f31a3353992e19434ca # DV (w/o HDR fallback)
+          # - ef4963043b0987f8485bc9106f16db38 # DV (Disk)
+          - 9b27ab6498ec0f31a3353992e19434ca # DV (w/o HDR fallback)
           # - 2016d1676f5ee13a5b7257ff86ac9a93 # NO SDR
           - 83304f261cf516bb208c18c54c0adf97 # SDR (no WEBDL)
 
@@ -540,7 +540,7 @@ sonarr:
           - 290078c8b266272a5cc8e251b5e2eb0b # 1080p
           - 1bef6c151fa35093015b0bfef18279e5 # 2160p
           - c99279ee27a154c2f20d1d505cc99e25 # 720p
-          - 32b367365729d530ca1c124a0b180c64 # Bad Dual Groups
+          # - 32b367365729d530ca1c124a0b180c64 # Bad Dual Groups
           - d7c747094a7c65f4c2de083c24899e8b # FreeLeech
           - 1bd69272e23c5e6c5b1d6c8a36fce95e # HFR
           - 5ab46ff851b76c337e13e81a4353875f # INTERNAL

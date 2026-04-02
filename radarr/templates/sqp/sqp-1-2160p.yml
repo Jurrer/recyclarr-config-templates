@@ -236,8 +236,8 @@ radarr:
           # - caa37d0df9c348912df1fb1d88f9273a # HDR10+ Boost
 
           # HDR Optional
-          - f700d29429c023a5734505e77daeaea7 # DV (Disk)
-          # - 923b6abef9b17f937fab56cfcf89e1f1 # DV (w/o HDR fallback)
+          # - f700d29429c023a5734505e77daeaea7 # DV (Disk)
+          - 923b6abef9b17f937fab56cfcf89e1f1 # DV (w/o HDR fallback)
           # - 9c38ebb7384dada637be8899efa68e6f # SDR
           - 25c12f78430a3a23413652cbd1d48d77 # SDR (no WEBDL)
 
@@ -276,7 +276,7 @@ radarr:
           - 820b09bb9acbfde9c35c71e0e565dad8 # 1080p
           - fb392fb0d61a010ae38e49ceaa24a1ef # 2160p
           - b2be17d608fc88818940cd1833b0b24c # 720p
-          - b6832f586342ef70d9c128d40c07b872 # Bad Dual Groups
+          # - b6832f586342ef70d9c128d40c07b872 # Bad Dual Groups
           - cc444569854e9de0b084ab2b8b1532b2 # Black and White Editions
           - 9de657fd3d327ecf144ec73dfe3a3e9a # Dutch Groups
           - 0d91270a7255a1e388fa85e959f359d8 # FreeLeech
