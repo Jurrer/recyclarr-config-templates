@@ -34,9 +34,8 @@ radarr:
       - template: radarr-quality-definition-sqp-uhd
       - template: radarr-custom-formats-sqp-1-2160p
 
-# Custom Formats: https://recyclarr.dev/reference/configuration/custom-formats/
+    # Custom Formats: https://recyclarr.dev/reference/configuration/custom-formats/
     custom_formats:
-
       # No special releases (Directors cut etc)
       - trash_ids:
           - 957d0f44b592285f26449575e8b1167e
