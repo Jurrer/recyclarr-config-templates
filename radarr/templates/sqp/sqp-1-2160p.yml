@@ -23,7 +23,7 @@ radarr:
       movie:
         rename: true
         standard: jellyfin-tmdb
-        
+
     quality_profiles:
       - name: SQP-1 (2160p)
         # Uncomment the below line if you don't have access to top-tier indexers
@@ -37,43 +37,45 @@ radarr:
 
 # Custom Formats: https://recyclarr.dev/reference/configuration/custom-formats/
     custom_formats:
+
       # No special releases (Directors cut etc)
       - trash_ids:
           - 957d0f44b592285f26449575e8b1167e
         assign_scores_to:
           - name: SQP-1 (2160p)
             score: -9000
-      - trash_ids:
-      # Uncomment any of the next six lines to prefer these movie versions
-          - 570bc9ebecd92723d2d21500f4be314c # Remaster
-          - eca37840c13c6ef2dd0262b141a5482f # 4K Remaster
-          - e0c07d59beb37348e975a930d5e50319 # Criterion Collection
-          - 9d27d9d2181838f76dee150882bdc58c # Masters of Cinema
-          - db9b4c4b53d312a3ca5f1378f6440fc9 # Vinegar Syndrome
-          # - 957d0f44b592285f26449575e8b1167e # Special Edition
-      # Uncomment the next line if you prefer 1080p/2160p WEBDL with IMAX Enhanced
-          - 9f6cbff8cfe4ebbc1bde14c7b7bec0de # IMAX Enhanced
-        assign_scores_to:
-          - name: SQP-1 (2160p)
-  
-      # Optional
-      - trash_ids:
-          # HDR10+ Boost - Uncomment the HDR10+ Boost line if you want to prefer HDR10+ releases
-          # DV Boost - Uncomment the DV Boost line if you want to prefer DV releases
-          # Uncomment both lines if you want to prefer both (DV HDR10+)
-          # - b337d6812e06c200ec9a2d3cfa9d20a7 # DV Boost
-          # - caa37d0df9c348912df1fb1d88f9273a # HDR10+ Boost
 
-          # Uncomment any of the following optional custom formats if you want them to be added to
-          # the quality profile
-          # - b6832f586342ef70d9c128d40c07b872 # Bad Dual Groups
-          - cc444569854e9de0b084ab2b8b1532b2 # Black and White Editions
-          # - ae9b7c9ebde1f3bd336a8cbd1ec4c5e5 # No-RlsGroup
-          # - 7357cf5161efbf8c4d5d0c30b4815ee2 # Obfuscated
-          - 5c44f52a8714fdd79bb4d98e2673be1f # Retags
-          # - f537cf427b64c38c8e36298f657e4828 # Scene
-        assign_scores_to:
-          - name: SQP-1 (2160p)
+      # - trash_ids:
+      # # Uncomment any of the next six lines to prefer these movie versions
+      #     - 570bc9ebecd92723d2d21500f4be314c # Remaster
+      #     - eca37840c13c6ef2dd0262b141a5482f # 4K Remaster
+      #     - e0c07d59beb37348e975a930d5e50319 # Criterion Collection
+      #     - 9d27d9d2181838f76dee150882bdc58c # Masters of Cinema
+      #     - db9b4c4b53d312a3ca5f1378f6440fc9 # Vinegar Syndrome
+      #     # - 957d0f44b592285f26449575e8b1167e # Special Edition
+      # # Uncomment the next line if you prefer 1080p/2160p WEBDL with IMAX Enhanced
+      #     - 9f6cbff8cfe4ebbc1bde14c7b7bec0de # IMAX Enhanced
+      #   assign_scores_to:
+      #     - name: SQP-1 (2160p)
+
+      # # Optional
+      # - trash_ids:
+      #     # HDR10+ Boost - Uncomment the HDR10+ Boost line if you want to prefer HDR10+ releases
+      #     # DV Boost - Uncomment the DV Boost line if you want to prefer DV releases
+      #     # Uncomment both lines if you want to prefer both (DV HDR10+)
+      #     # - b337d6812e06c200ec9a2d3cfa9d20a7 # DV Boost
+      #     # - caa37d0df9c348912df1fb1d88f9273a # HDR10+ Boost
+
+      #     # Uncomment any of the following optional custom formats if you want them to be added to
+      #     # the quality profile
+      #     # - b6832f586342ef70d9c128d40c07b872 # Bad Dual Groups
+      #     # - cc444569854e9de0b084ab2b8b1532b2 # Black and White Editions
+      #     # - ae9b7c9ebde1f3bd336a8cbd1ec4c5e5 # No-RlsGroup
+      #     # - 7357cf5161efbf8c4d5d0c30b4815ee2 # Obfuscated
+      #     # - 5c44f52a8714fdd79bb4d98e2673be1f # Retags
+      #     # - f537cf427b64c38c8e36298f657e4828 # Scene
+      #   assign_scores_to:
+      #     - name: SQP-1 (2160p)
 
       # Optional SDR
       # Only ever use ONE of the following custom formats:
@@ -213,7 +215,7 @@ radarr:
 
           # # German Miscellaneous
           # - 3bc8df3a71baaac60a31ef696ea72d36 # German 1080p Booster
-          # - cc7b1e64e2513a6a271090cdfafaeb55 # German 2160p Booster
+          - cc7b1e64e2513a6a271090cdfafaeb55 # German 2160p Booster
           # - 263943bc5d99550c68aad0c4278ba1c7 # German LQ
           # - a826ee9e46607bc61795c85a6f2b1279 # German LQ (release title)
           # - 03c430f326f10a27a9739b8bc83c30e4 # German Microsized
@@ -233,13 +235,13 @@ radarr:
           # HDR Formats
           - b337d6812e06c200ec9a2d3cfa9d20a7 # DV Boost
           - 493b6d1dbec3c3364c59d7607f7e3405 # HDR
-          - caa37d0df9c348912df1fb1d88f9273a # HDR10+ Boost
+          # - caa37d0df9c348912df1fb1d88f9273a # HDR10+ Boost
 
           # HDR Optional
-          # - f700d29429c023a5734505e77daeaea7 # DV (Disk)
-          - 923b6abef9b17f937fab56cfcf89e1f1 # DV (w/o HDR fallback)
-          - 9c38ebb7384dada637be8899efa68e6f # SDR
-          # - 25c12f78430a3a23413652cbd1d48d77 # SDR (no WEBDL)
+          - f700d29429c023a5734505e77daeaea7 # DV (Disk)
+          # - 923b6abef9b17f937fab56cfcf89e1f1 # DV (w/o HDR fallback)
+          # - 9c38ebb7384dada637be8899efa68e6f # SDR
+          - 25c12f78430a3a23413652cbd1d48d77 # SDR (no WEBDL)
 
           # HQ Release Groups
           - ed27ebfef2f323e964fb1f61391bcb35 # HD Bluray Tier 01
@@ -276,7 +278,7 @@ radarr:
           - 820b09bb9acbfde9c35c71e0e565dad8 # 1080p
           - fb392fb0d61a010ae38e49ceaa24a1ef # 2160p
           - b2be17d608fc88818940cd1833b0b24c # 720p
-          # - b6832f586342ef70d9c128d40c07b872 # Bad Dual Groups
+          - b6832f586342ef70d9c128d40c07b872 # Bad Dual Groups
           - cc444569854e9de0b084ab2b8b1532b2 # Black and White Editions
           - 9de657fd3d327ecf144ec73dfe3a3e9a # Dutch Groups
           - 0d91270a7255a1e388fa85e959f359d8 # FreeLeech
@@ -312,10 +314,10 @@ radarr:
           # - db9b4c4b53d312a3ca5f1378f6440fc9 # Vinegar Syndrome
 
           # # UK Streaming Services
-          # - 6185878161f1e2eef9cd0641a0d09eae # IP
-          # - c3492a26af412e385404eade438ec51c # ITVX
-          # - eacd2cb6c6d4a93e459df2cec6d7b97a # MY5
-          # - 3dce1fce9ac06d1349dfbd9186289385 # NOW
+          - 6185878161f1e2eef9cd0641a0d09eae # IP
+          - c3492a26af412e385404eade438ec51c # ITVX
+          - eacd2cb6c6d4a93e459df2cec6d7b97a # MY5
+          - 3dce1fce9ac06d1349dfbd9186289385 # NOW
 
           # Unwanted
           # - b8cd450cbfa689c0259a01d9e29ba3d6 # 3D
@@ -326,7 +328,7 @@ radarr:
           # - 90a6f9a284dff5103f6346090e6280c8 # LQ
           # - e204b80c87be9497a8a6eaff48f72905 # LQ (Release Title)
           # - 712d74cd88bceb883ee32f773656b1f5 # Sing-Along Versions
-          # - bfd8eb01832d646a0a89c4deb46f8564 # Upscaled
+          - bfd8eb01832d646a0a89c4deb46f8564 # Upscaled
           # - dc98083864ea246d05a42df0d05f81cc # x265 (HD)
         assign_scores_to:
           - name: SQP-1 (2160p)

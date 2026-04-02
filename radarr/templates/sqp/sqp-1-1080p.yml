@@ -184,7 +184,7 @@ radarr:
           - e0ec9672be6cac914ffad34a6b077209 # iT
 
           # # German Miscellaneous
-          # - 3bc8df3a71baaac60a31ef696ea72d36 # German 1080p Booster
+          - 3bc8df3a71baaac60a31ef696ea72d36 # German 1080p Booster
           # - cc7b1e64e2513a6a271090cdfafaeb55 # German 2160p Booster
           # - 263943bc5d99550c68aad0c4278ba1c7 # German LQ
           # - a826ee9e46607bc61795c85a6f2b1279 # German LQ (release title)
@@ -205,13 +205,13 @@ radarr:
           # HDR Formats
           - b337d6812e06c200ec9a2d3cfa9d20a7 # DV Boost
           - 493b6d1dbec3c3364c59d7607f7e3405 # HDR
-          - caa37d0df9c348912df1fb1d88f9273a # HDR10+ Boost
+          # - caa37d0df9c348912df1fb1d88f9273a # HDR10+ Boost
 
           # HDR Optional
           - f700d29429c023a5734505e77daeaea7 # DV (Disk)
-          - 923b6abef9b17f937fab56cfcf89e1f1 # DV (w/o HDR fallback)
-          - 9c38ebb7384dada637be8899efa68e6f # SDR
-          # - 25c12f78430a3a23413652cbd1d48d77 # SDR (no WEBDL)
+          # - 923b6abef9b17f937fab56cfcf89e1f1 # DV (w/o HDR fallback)
+          # - 9c38ebb7384dada637be8899efa68e6f # SDR
+          - 25c12f78430a3a23413652cbd1d48d77 # SDR (no WEBDL)
 
           # HQ Release Groups
           - ed27ebfef2f323e964fb1f61391bcb35 # HD Bluray Tier 01
@@ -291,7 +291,7 @@ radarr:
 
           # Unwanted
           - b8cd450cbfa689c0259a01d9e29ba3d6 # 3D
-          # - cae4ca30163749b891686f95532519bd # AV1
+          - cae4ca30163749b891686f95532519bd # AV1
           # - ed38b889b31be83fda192888e2286d83 # BR-DISK
           - 0a3f082873eb454bde444150b70253cc # Extras
           - e6886871085226c3da1830830146846c # Generated Dynamic HDR
